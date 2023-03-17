@@ -13,6 +13,7 @@
                 <p>{{ $comic->description }}</p>
                 <h4>{{ $comic->price }}</h4>
                 <h5>{{ $comic->sale_date }}</h5>
+                <a href="{{ route('comics.edit', $comic->id) }}">Modifica il fumetto</a>
                 <a href="{{ route('comics.index') }}">Torna alla lista dei fumetti</a>
             </div>
         </div>
