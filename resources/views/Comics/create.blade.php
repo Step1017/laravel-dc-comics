@@ -41,7 +41,7 @@
                     <div class="mb-3">
                         <label for="type" class="form-label">Tipologia</label>
                         <select id="type" class="form-control" name="type" required>
-                            <option selected disabled>Seleziona ua tipologia</option>
+                            <option selected disabled>Seleziona la tipologia</option>
                             <option value="comic book">Comic book</option>
                             <option value="graphic novel">Graphic novel</option>
                         </select>

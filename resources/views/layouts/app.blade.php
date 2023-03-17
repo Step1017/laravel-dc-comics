@@ -19,7 +19,7 @@
         </main>
 
         <footer>
-            Footer
+            Footer 
         </footer>
 
     </body>
