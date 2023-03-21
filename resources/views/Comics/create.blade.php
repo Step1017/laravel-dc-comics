@@ -16,7 +16,7 @@
                     @csrf
                     <div class="mb-3 ">
                         <label for="title" class="form-label">Titolo</label>
-                        <input type="text" id="title" class="form-control @error ('title') is-invalid @enderror" name="title"  value="{{ old('title') }}" maxlength="255" placeholder="Inserisci il titolo...">
+                        <input type="text" id="title" class="form-control @error ('title') is-invalid @enderror" name="title"  value="{{ old('title') }}"  maxlength="255" placeholder="Inserisci il titolo...">
                         @error ('title')
                             <span class="d-block mt-2 text-danger"> {{ $message }}</span>
                         @enderror
