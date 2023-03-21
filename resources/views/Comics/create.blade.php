@@ -28,7 +28,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="price" class="form-label">Prezzo</label>
-                        <input type=number class="form-control" step=0.01 id="price" name="price" required placeholder="0,00">
+                        <input type=number class="form-control" step=0.01 id="price" name="price" required min="0.09" placeholder="0,00">
                     </div>
                     <div class="mb-3">
                         <label for="series" class="form-label">Serie</label>
