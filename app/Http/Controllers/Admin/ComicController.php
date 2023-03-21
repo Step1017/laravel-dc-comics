@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 //Importazione Models:
 use App\Models\Comic;
 
+//Importazione Requests:
+use App\Http\Requests\StoreComicRequest;
+
 class ComicController extends Controller
 {
     /**
@@ -40,7 +43,7 @@ class ComicController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreComicRequest $request)
     {
         $data = $request->all();
 
